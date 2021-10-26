@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: brown;
+    border: 0px solid rgb(5, 5, 134);
+    box-shadow: 30px 20px 10px 5px rgb(32, 32, 32) ;
+    text-shadow: 2px 2px 7px rgb(0, 0, 0), 2px 2px 7px rgb(0, 0, 0);
+}
+
+.calc_op1 {
+    display: inline-block;
+}

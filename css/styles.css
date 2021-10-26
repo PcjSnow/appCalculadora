@@ -12,6 +12,56 @@ h1 {
     text-shadow: 2px 2px 7px rgb(0, 0, 0), 2px 2px 7px rgb(0, 0, 0);
 }
 
-.calc_op1 {
+.calc {
+    text-align: center;
+}
+
+.operar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
+    font-size: 16px;
+    margin-top: 2rem;
+
+}
+
+.operandos {
+
+    background-color: #c232c2;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin-top: 2rem;
+    font-weight: bold;
+    width: 106px;
+}
+
+.operador {
+
+    background-color: #c232c2;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 2rem;
+    
+
+}
+
+p {
+    display: inline-block;
+    font-size: 4rem;
+    margin: 10px 10px 10px 10px;
+    
 }

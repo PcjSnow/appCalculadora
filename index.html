@@ -5,24 +5,51 @@
     <title>Calculadora</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    
 </head>
 <body>
+    
     <header>
         <h1>Calculadora</h1>
     </header>
     <div class="calc">
-        <input class="operandos" type="number">
 
-        <p class="operador">+</p>
+        <div class="suma">
+            <button type="button" class="operar" id="sumar"> Sumar </button>
+            <input class="operandos" id="op1" type="number">
 
-        <input class="operandos" type="number">
-        <p>=</p>
-        <br>
-        <input type="button" class="operar" value="Operar">
+            <h2 class="operador">+</h2>
+
+            <input class="operandos" id="op2" type="number">
+            <p>=</p>
+            <h2 class="results" id="resultSuma"></h2>
+            <br>
+        </div>
+
+        <div class="resta">
+            <button type="button" class="operar" id="restar"> Restar </button>
+            <input class="operandos" id="op3" type="number">
+
+            <h2 class="operador">-</h2>
+
+            <input class="operandos" id="op4" type="number">
+            <p>=</p>
+            <h2 class="results" id="resultResta"></h2>
+            <br>
+        </div>
+
+        <div class="calc-footer">
+            <button type="button" class="operar" id="reset"> Resetear </button>
+
+        </div>
+
+        
+        
 
         
     </div>
-    
+    <script src="js/app.js"></script>
 </body>
 
 </html>

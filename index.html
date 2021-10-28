@@ -12,43 +12,72 @@
     
     <header>
         <h1>Calculadora</h1>
+        <h2>(simplemente una csm)</h2>
     </header>
     <div class="calc">
 
         <div class="suma">
             <button type="button" class="operar" id="sumar"> Sumar </button>
-            <input class="operandos" id="op1" type="number">
+            <input class="operandos" id="sumar-op1" type="number">
 
             <h2 class="operador">+</h2>
 
-            <input class="operandos" id="op2" type="number">
-            <p>=</p>
+            <input class="operandos" id="sumar-op2" type="number">
+            <h2 class="operador">=</h2>
             <h2 class="results" id="resultSuma"></h2>
             <br>
         </div>
 
         <div class="resta">
             <button type="button" class="operar" id="restar"> Restar </button>
-            <input class="operandos" id="op3" type="number">
+            <input class="operandos" id="restar-op1" type="number">
 
             <h2 class="operador">-</h2>
 
-            <input class="operandos" id="op4" type="number">
-            <p>=</p>
+            <input class="operandos" id="restar-op2" type="number">
+            <h2 class="operador">=</h2>
             <h2 class="results" id="resultResta"></h2>
             <br>
         </div>
 
-        <div class="calc-footer">
-            <button type="button" class="operar" id="reset"> Resetear </button>
+        <div class="producto">
 
+            <button type="button" class="operar" id="producto"> Multiplicar </button>
+
+            <input class="operandos" id="producto-op1" type="number">
+
+            <h2 class="operador">*</h2>
+
+            <input class="operandos" id="producto-op2" type="number">
+
+            <h2 class="operador">=</h2>
+            <h2 class="results" id="resultProducto"></h2>
+            <br>
+        </div>
+
+        <div class="division">
+
+            <button type="button" class="operar" id="dividir"> Dividir </button>
+
+            <input class="operandos" id="dividir-op1" type="number">
+
+            <h2 class="operador">/</h2>
+
+            <input class="operandos" id="dividir-op2" type="number">
+
+            <h2 class="operador">=</h2>
+            <h2 class="results" id="resultDivision"></h2>
+            <br>
         </div>
 
         
-        
-
-        
     </div>
+
+    <div class="calc-footer">
+        <button type="button" class="operar" id="reset"> Resetear </button>
+    </div>
+    
+    <img src="img/meme.gif" alt="description of gif" /> 
     <script src="js/app.js"></script>
 </body>
 

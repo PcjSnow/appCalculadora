@@ -1,15 +1,25 @@
 body {
-    background-color: aqua;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 96%);
+}
+
+header {
+    font-size: 2rem;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 1rem;
     text-align: center;
-    color: blueviolet;
+    color: rgb(238, 228, 248);
     text-shadow: brown;
-    border: 0px solid rgb(5, 5, 134);
-    box-shadow: 30px 20px 10px 5px rgb(32, 32, 32) ;
     text-shadow: 2px 2px 7px rgb(0, 0, 0), 2px 2px 7px rgb(0, 0, 0);
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(238, 228, 248);
 }
 
 .calc {
@@ -19,15 +29,16 @@ h1 {
 .operar {
     background-color: #4CAF50;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: left;
+    font-weight: 800;
     text-decoration: none;
     font-size: 16px;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    float: left;
-
+    position: relative;
+    top: -6px;
+    left: -90px;
+    cursor: pointer;
 }
 
 .operandos {
@@ -59,9 +70,26 @@ h1 {
     font-size: 3rem;
 }
 
-p {
-    display: inline-block;
-    font-size: 4rem;
-    margin: 10px 10px 10px 10px;
+.calc-footer {
+    position: fixed;
+    margin: 2rem;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
     
+}
+
+#reset {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1rem;
 }
